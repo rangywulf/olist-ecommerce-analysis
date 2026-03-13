@@ -1,0 +1,9 @@
+PRAGMA table_info("orders");
+PRAGMA table_info("order_items");
+PRAGMA table_info("order_payments");
+PRAGMA table_info("order_reviews");
+PRAGMA table_info("customers");
+PRAGMA table_info("sellers");
+PRAGMA table_info("products");
+PRAGMA table_info("product_category_translation");
+PRAGMA table_info("geolocation");
