@@ -149,3 +149,18 @@
 - Used for mapping in Tableau during Phase 6
 
 ---
+
+**Null Checks**
+- Empty values imported as empty strings "" not NULL
+- Use = '' instead of IS NULL when filtering for missing dates
+- Undelivered orders (invoiced, shipped, processing) have empty delivery dates
+- 2,965 orders have no delivery date (cancelled, in progress, etc.) — about 3% of total
+- All orders have an estimated delivery date
+- Filter out empty delivery dates in Phase 3 using WHERE order_delivered_customer_date != ''
+
+---
+
+## Null Check Findings
+- orders: 2,965 missing delivery dates (empty string not NULL) — filter with != ''
+- order_reviews: 0 missing review scores — clean!
+- products: 610 missing category names (empty string not NULL) — will be excluded from Phase 2 category analysis
