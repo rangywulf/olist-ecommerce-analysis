@@ -38,3 +38,8 @@ So roughly 1 in 12 orders arrives late. That sounds low but remember this is acr
 - SP (São Paulo) at -10.4 days has 41,746 orders — by far the largest volume state
 
 This makes geographic sense. Olist is headquartered in São Paulo and most sellers are there too. Deliveries to remote northern states like Acre and Amazonas are genuinely harder to predict so they pad the estimates more.
+
+## Delivery Delays by Seller
+- Top worst seller averages +10 days late — consistently missing estimates
+- 8.05% overall late rate masks significant seller-level variation
+- A small number of sellers are responsible for a disproportionate share of late orders
