@@ -16,3 +16,9 @@
 - November 2017 — a huge spike to $987K, that's almost certainly Black Friday
 - Growth trend is clear — from ~$111K in January 2017 to ~$924K in January 2018, nearly 10x growth in one year
 - 2016 data is incomplete — only a few months, so we'll want to note that in our analysis
+
+## Phase 3: Delivery Performance
+
+- Most orders arrive early — Olist appears to pad their estimates deliberately
+- Customers are pleasantly surprised rather than disappointed in most cases
+- Delivery delta ranges from -31 days (very early) to +11 days (late) in the sample
