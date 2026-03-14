@@ -43,3 +43,8 @@ This makes geographic sense. Olist is headquartered in São Paulo and most selle
 - Top worst seller averages +10 days late — consistently missing estimates
 - 8.05% overall late rate masks significant seller-level variation
 - A small number of sellers are responsible for a disproportionate share of late orders
+
+## Delivery Tiers
+- 91.7% of orders arrive early — Olist heavily pads delivery estimates
+- When orders are late they tend to be very late (7+ days) rather than slightly late
+- Only 175 orders arrived exactly on the estimated date
