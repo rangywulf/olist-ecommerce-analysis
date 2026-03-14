@@ -22,3 +22,10 @@
 - Most orders arrive early — Olist appears to pad their estimates deliberately
 - Customers are pleasantly surprised rather than disappointed in most cases
 - Delivery delta ranges from -31 days (very early) to +11 days (late) in the sample
+
+## Overall Late Rate**
+- 96,476 delivered orders
+- 7,766 were late
+- 8.05% late delivery rate
+
+So roughly 1 in 12 orders arrives late. That sounds low but remember this is across nearly 100K orders — that's still almost 8,000 unhappy customers.
