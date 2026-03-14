@@ -13,3 +13,12 @@ SELECT
     ROUND(SUM(CASE WHEN ROUND(JULIANDAY(order_delivered_customer_date) - JULIANDAY(order_estimated_delivery_date), 1) > 0 THEN 1 ELSE 0 END) * 100.0 / COUNT(*), 2) AS late_pct
 FROM orders
 WHERE order_delivered_customer_date != '';
+
+SELECT
+    c.customer_state,
+    COUNT(*) AS total_orders,
+    ROUND(AVG(JULIANDAY(o.order_delivered_customer_date) - JULIANDAY(o.order_estimated_delivery_date)), 1) AS avg_delivery_days
+FROM orders o 
+JOIN customers c ON o.customer_id = c.customer_id
+GROUP BY c.customer_state
+ORDER BY avg_delivery_days DESC;
