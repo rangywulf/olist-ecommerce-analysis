@@ -54,7 +54,7 @@ This makes geographic sense. Olist is headquartered in São Paulo and most selle
 - Identified "High Volume, Low Quality" sellers doing significant business but scoring below 3.5 on reviews
 - Hidden Gem sellers exist — small volume but exceptional quality scores
 
-## Review Scores vs Delivery Delta
+## Review Scores Analysis
 - Early deliveries average 4.29 stars vs 2.18 for late deliveries
 - Crossing 4 days late drops average review score by over 1 full star
 - The 4 day mark is the critical threshold for customer satisfaction
@@ -62,3 +62,6 @@ This makes geographic sense. Olist is headquartered in São Paulo and most selle
 - Only 2% of 5-star reviews came from late deliveries
 - Late delivery is a major but not exclusive driver of poor reviews
 - Other factors beyond delivery drive 63% of 1-star ratings
+- - Worst rated categories (office furniture, fashion, telephony) have LOW late delivery rates
+- Poor reviews in these categories are driven by product quality or unmet expectations, not delivery
+- Delivery performance alone does not explain review scores across categories
