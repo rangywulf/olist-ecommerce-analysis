@@ -58,3 +58,7 @@ This makes geographic sense. Olist is headquartered in São Paulo and most selle
 - Early deliveries average 4.29 stars vs 2.18 for late deliveries
 - Crossing 4 days late drops average review score by over 1 full star
 - The 4 day mark is the critical threshold for customer satisfaction
+- 37% of all 1-star reviews came from late deliveries
+- Only 2% of 5-star reviews came from late deliveries
+- Late delivery is a major but not exclusive driver of poor reviews
+- Other factors beyond delivery drive 63% of 1-star ratings
