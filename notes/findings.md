@@ -48,3 +48,8 @@ This makes geographic sense. Olist is headquartered in São Paulo and most selle
 - 91.7% of orders arrive early — Olist heavily pads delivery estimates
 - When orders are late they tend to be very late (7+ days) rather than slightly late
 - Only 175 orders arrived exactly on the estimated date
+
+## Seller Scorecard
+- Top volume sellers don't dominate the composite scorecard — review score and delivery performance dilute their ranking
+- Identified "High Volume, Low Quality" sellers doing significant business but scoring below 3.5 on reviews
+- Hidden Gem sellers exist — small volume but exceptional quality scores
