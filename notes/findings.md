@@ -53,3 +53,8 @@ This makes geographic sense. Olist is headquartered in São Paulo and most selle
 - Top volume sellers don't dominate the composite scorecard — review score and delivery performance dilute their ranking
 - Identified "High Volume, Low Quality" sellers doing significant business but scoring below 3.5 on reviews
 - Hidden Gem sellers exist — small volume but exceptional quality scores
+
+## Review Scores vs Delivery Delta
+- Early deliveries average 4.29 stars vs 2.18 for late deliveries
+- Crossing 4 days late drops average review score by over 1 full star
+- The 4 day mark is the critical threshold for customer satisfaction

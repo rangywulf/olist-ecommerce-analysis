@@ -1,0 +1,6 @@
+delivery_status,avg_score,order_count
+Early,4.29,88543
+On Time,4.18,177
+Slightly Late,3.55,1468
+Very Late,2.35,4816
+Late,2.18,1355
