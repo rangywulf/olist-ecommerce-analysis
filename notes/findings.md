@@ -1,67 +1,57 @@
-## AVG Order Value Per Category
-*TOP 15*
-- Watches & Gifts has an average order value of $201 — the highest on the list — but it's 2nd in total revenue. Expensive items, fewer buyers.
-- Bed, Bath & Table has the most orders (11,115) but an average order value of - only $93. Volume driver, not a premium category.
-- Telephony has the lowest average order value at $71 despite decent order numbers.
-- Cool Stuff sits at $167 average — surprisingly high for a vague category name.
+# Olist E-Commerce Analysis: Key Findings
 
-*Bottom 10*
-- Security & Services made only $283 total across 2 orders — basically doesn't exist
-- Fashion Children's Clothes only $569 across 8 orders
-- CDs, DVDs & Musicals — interesting that physical media is near the bottom, very much a 2016-2018 story
-- La Cuisine has the highest average order value in this group at $146 but barely any volume
+## Revenue & Category Performance
 
-## Monthly Revenue Trend
-- September 2016 — only $134 in revenue, the business was just getting started
-- November 2017 — a huge spike to $987K, that's almost certainly Black Friday
-- Growth trend is clear — from ~$111K in January 2017 to ~$924K in January 2018, nearly 10x growth in one year
-- 2016 data is incomplete — only a few months, so we'll want to note that in our analysis
+- Health & Beauty is the top revenue category at $1.26M, followed closely 
+  by Watches & Gifts at $1.21M
+- Watches & Gifts has the highest average order value at $201 but ranks 2nd 
+  in total revenue — expensive items, fewer buyers
+- Bed, Bath & Table drives the most orders (11,115) but at only $93 average 
+  order value — a volume driver, not a premium category
+- The bottom 10 categories are either niche or failed to find traction — 
+  Security & Services generated only $283 across 2 orders
+- Physical media (CDs, DVDs) sits near the bottom — consistent with the 
+  2016-2018 shift away from physical formats
+- Revenue grew nearly 10x in one year — from $111K in January 2017 to 
+  $924K in January 2018
+- November 2017 shows a sharp spike to $987K, almost certainly driven 
+  by Black Friday
 
-## Phase 3: Delivery Performance
+## Delivery Performance
 
-- Most orders arrive early — Olist appears to pad their estimates deliberately
-- Customers are pleasantly surprised rather than disappointed in most cases
-- Delivery delta ranges from -31 days (very early) to +11 days (late) in the sample
+- 91.7% of orders arrive before the estimated delivery date — Olist 
+  deliberately pads estimates to manage customer expectations
+- Only 8.05% of orders arrive late — roughly 1 in 12 across 96,476 
+  delivered orders
+- When orders are late they tend to be significantly late — more orders 
+  fall in the "Very Late (7+ days)" tier than "Slightly Late (1-3 days)"
+- Remote northern states (Acre, Amazonas, Amapá, Rondônia) receive the 
+  most padded estimates, averaging 18-20 days early
+- São Paulo accounts for 41,746 orders — by far the largest volume state
+- A small number of sellers drive a disproportionate share of late orders — 
+  the worst performing seller averages +10 days late
 
-## Overall Late Rate
-- 96,476 delivered orders
-- 7,766 were late
-- 8.05% late delivery rate
+## Seller Performance
 
-So roughly 1 in 12 orders arrives late. That sounds low but remember this is across nearly 100K orders — that's still almost 8,000 unhappy customers.
+- High order volume alone does not make a top seller — the composite 
+  scorecard (review score + delivery + volume) surfaces different leaders 
+  than volume alone
+- "High Volume, Low Quality" sellers exist — doing significant business 
+  while scoring below 3.5 on reviews, quietly damaging platform reputation
+- "Hidden Gem" sellers exist — low volume but exceptional review scores 
+  and delivery performance
+- The top composite ranked seller has 135 orders, 4.51 avg review score, 
+  and delivers 20 days ahead of estimate
 
-## Delivery By State
-- All states have negative averages meaning on average every state receives orders early
-- AL (Alagoas) at -8 days is the least early — closest to the estimated date
-- AC (Acre) at -20 days is the most early — nearly 3 weeks ahead of estimate
-- The pattern is clear: remote northern states get the most padded estimates — Amazonas, Amapá, Rondônia, Acre are all at the bottom
-- SP (São Paulo) at -10.4 days has 41,746 orders — by far the largest volume state
+## Review Score Analysis
 
-This makes geographic sense. Olist is headquartered in São Paulo and most sellers are there too. Deliveries to remote northern states like Acre and Amazonas are genuinely harder to predict so they pad the estimates more.
-
-## Delivery Delays by Seller
-- Top worst seller averages +10 days late — consistently missing estimates
-- 8.05% overall late rate masks significant seller-level variation
-- A small number of sellers are responsible for a disproportionate share of late orders
-
-## Delivery Tiers
-- 91.7% of orders arrive early — Olist heavily pads delivery estimates
-- When orders are late they tend to be very late (7+ days) rather than slightly late
-- Only 175 orders arrived exactly on the estimated date
-
-## Seller Scorecard
-- Top volume sellers don't dominate the composite scorecard — review score and delivery performance dilute their ranking
-- Identified "High Volume, Low Quality" sellers doing significant business but scoring below 3.5 on reviews
-- Hidden Gem sellers exist — small volume but exceptional quality scores
-
-## Review Scores Analysis
-- Early deliveries average 4.29 stars vs 2.18 for late deliveries
-- Crossing 4 days late drops average review score by over 1 full star
-- The 4 day mark is the critical threshold for customer satisfaction
+- Early deliveries average 4.29 stars vs 2.18 stars for late deliveries
+- The critical threshold is 4 days late — crossing this point drops average 
+  review scores by over 1 full star
 - 37% of all 1-star reviews came from late deliveries
 - Only 2% of 5-star reviews came from late deliveries
-- Late delivery is a major but not exclusive driver of poor reviews
-- Other factors beyond delivery drive 63% of 1-star ratings
-- - Worst rated categories (office furniture, fashion, telephony) have LOW late delivery rates
-- Poor reviews in these categories are driven by product quality or unmet expectations, not delivery
-- Delivery performance alone does not explain review scores across categories
+- However, 63% of 1-star reviews came from on-time or early orders — 
+  late delivery is a major but not exclusive driver of dissatisfaction
+- The worst rated categories (office furniture, fashion, telephony) 
+  have LOW late delivery rates — poor reviews here are driven by product 
+  quality or unmet expectations, not delivery
